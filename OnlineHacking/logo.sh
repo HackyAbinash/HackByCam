@@ -27,7 +27,7 @@ echo -e "\e[95m
       echo "" 
 sleep 8
 clear
-xdg-open "https://www.onlinehacking.in/hack-front-camera-target-phone-using-termux-linux"
+xdg-open "https://www.blackterminal.in/hack-front-camera-target-phone-using-termux-linux"
 echo ""
 echo ""
 printf "\e[31m[\e[32m★\e[31m]\e[32m This Tool is only educational purpose and we are not responsible for kind of illegal activity done by this tool\e[m "
@@ -50,7 +50,7 @@ fi
 clear
 
 echo ""
-printf "\e[100;330m[\e[10m **** ]\e[1;40m\e[10m OnlineHacking :\e[1;32m Join Telegram Channel \e[1;33m @OnlineHacking  !\e[0m"
+printf "\e[100;330m[\e[10m **** ]\e[1;40m\e[10m OBlackTerminal :\e[1;32m Join Telegram Channel \e[1;33m @OnlineHacking  !\e[0m"
 sleep 4
 echo ""
 clear
