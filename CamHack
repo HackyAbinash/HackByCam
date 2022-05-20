@@ -32,7 +32,7 @@ ask="${cyan}[${white}?${cyan}] ${purple}"
 error="${cyan}[${white}!${cyan}] ${red}"
 success="${cyan}[${white}√${cyan}] ${green}"
 
-bash BlackTerminal/logo.sh
+bash CamHack/logo.sh
 
 cwd=`pwd`
 
