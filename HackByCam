@@ -379,7 +379,7 @@ clear
 echo -e "$logo"
 sleep 1
 
-bash OnlineHacking/logo2.sh
+bash Hacking/logo2.sh
 
 sleep 1
 printf "${cyan}\nBlack${nc}@${cyan}Terminal ${red}$ ${nc}"
