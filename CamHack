@@ -382,7 +382,7 @@ sleep 1
 bash BlackTerminal/logo2.sh
 
 sleep 1
-printf "${cyan}\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
+printf "${cyan}\nBlack${nc}@${cyan}Terminal ${red}$ ${nc}"
 read option
 # Select template
     if echo $option | grep -q "1"; then
@@ -390,7 +390,7 @@ read option
         break
     elif echo $option | grep -q "2"; then
         dir="fest"
-        printf "\n${ask}Enter festival name:${cyan}\n\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
+        printf "\n${ask}Enter festival name:${cyan}\n\nBlack${nc}@${cyan}Terminal ${red}$ ${nc}"
         read fest_name
         if [ -z $fest_name ]; then
             echo -e "\n${error}Invalid input!\n\007"
@@ -401,7 +401,7 @@ read option
         fi
     elif echo $option | grep -q "3"; then
         dir="live"
-        printf "\n${ask}Enter youtube video ID:${cyan}\n\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
+        printf "\n${ask}Enter youtube video ID:${cyan}\n\nBlack${nc}@${cyan}Terminal ${red}$ ${nc}"
         read vid_id
         if [ -z $vid_id ]; then
             echo -e "\n${error}Invalid input!\n\007"
@@ -419,7 +419,7 @@ read option
             export TN="Cloudflared"
         fi
     elif echo $option | grep -q "i"; then
-        printf "\n${ask}Enter Directory:${cyan}\n\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
+        printf "\n${ask}Enter Directory:${cyan}\n\nBlack${nc}@${cyan}Terminal ${red}$ ${nc}"
         read dire
         if ! [ -d $dire ]; then
             echo -e "\n${error}Invalid directory!\n\007"
